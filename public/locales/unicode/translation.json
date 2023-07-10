@@ -1,0 +1,38 @@
+{
+  "ChooseLanguage": {
+    "confirm": "ရှေ့ဆက်မည်"
+  },
+  "Home": {
+    "categories": "Category အလိုက်ကြည့်ရန်",
+    "best-selling": "အ‌ရောင်းရဆုံး ပစ္စည်းများ",
+    "popular-shop": "နာမည်ကြီး ဆိုင်များ",
+    "new-arrival": "အသစ်ရောက် ပစ္စည်းများ",
+    "popular-now": "Popular Now",
+    "promotion": "ပရိုမိုးရှင်း ပစ္စည်းများ",
+    "brand": "Brand အလိုက်ကြည့်ရန်",
+    "view-all-brand": "Brand အားလုံးကြည့်ရန်"
+  },
+  "Me": {
+    "user-guide": "အသုံးပြူသူ အညွှန်း",
+    "rules-and-terms-of-use": "စည်းမျဉ်းစည်းကမ်းနှင့် သတ်မှတ်ချက်များ",
+    "my-orders": "ကျွန်ုပ်၏ အော်ဒါများ",
+    "add-address": "လိပ်စာထည့်ရန်",
+    "language": "ဘာသာစကား",
+    "change-phone": "ပြောင်းလဲမည့် ဖုန်းနံပါတ်",
+    "enter-phone": "ဖုန်းနံပါတ်ထည့်သွင်းပေးပါ။",
+    "follow-shop": "Followed Shops",
+    "wishlist": "My WishList"
+  },
+  "Utils": {
+    "view-more": "ထပ်ကြည့်ရန်",
+    "visit": "သွားလည်မည်"
+
+  },
+  "Footer": {
+    "home": "မူလစာမျက်နှာ",
+    "orders": "အော်ဒါများ",
+    "messages": "စာများ",
+    "my-account": "မိမိပရိုဖိုင်",
+      "cart": "ဈေးခြင်း"
+  }
+}

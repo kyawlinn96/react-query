@@ -1,0 +1,40 @@
+{
+  "ChooseLanguage": {
+    "confirm": "Continue"
+  },
+  "Home": {
+    "categories": "Categories",
+    "best-selling": "Best Selling",
+    "popular-shop": "Popular Shop",
+    "new-arrival": "New Arrival",
+    "popular-now": "Popular Now",
+    "promotion": "Promotion",
+    "brand": "Brands",
+    "view-all-brand": "All Brand"
+  },
+  "ShopLanding": {
+
+  },
+  "Me": {
+    "user-guide": "User Guide",
+    "rules-and-terms-of-use": "Terms & Privacy Policy",
+    "my-orders": "My Orders",
+    "add-address": "Add Address",
+    "language": "Change Language",
+    "change-phone": "Enter Phone Number To Change",
+    "enter-phone": "Enter Your Phone Number",
+    "follow-shop": "Followed Shops",
+    "wishlist": "My WishList"
+  },
+  "Utils": {
+    "view-more": "More",
+    "visit": "Visit"
+  },
+   "Footer": {
+    "home": "Home",
+    "orders": "Orders",
+    "messages": "Messages",
+    "my-account": "Profile",
+      "cart": "Cart"
+  }
+}

@@ -1,0 +1,147 @@
+export type ProductVariantValue = {
+  url: string;
+  valueId: number;
+  valueName: string;
+  variantName: string | null;
+};
+
+export type ProductSku = {
+  bestBeforeDate: string | null;
+  canPreOrder: boolean;
+  expireDate: null;
+  fixedAmount: number;
+  fromPrice: number;
+  hasFromToPrice: boolean;
+  isShowLeftQty: boolean;
+  isShowSoldQty: boolean;
+  manufactureDate: null;
+  memberPointEarn: number;
+  originalPrice: number;
+  point: number;
+  productPreOrder: null;
+  productSkuImages: {
+    id: number;
+    isMain: boolean;
+    miniUrl: string;
+    productId: number;
+    skuId: number;
+    thumbnailUrl: string;
+    url: string;
+    valueName: string;
+    variantName: string;
+  }[];
+  promotePercent: number;
+  promotePrice: number;
+  purchasePrice: number;
+  qty: number;
+  rewardAmount: number;
+  rewardPercent: number;
+  skuId: number;
+  soldQty: number;
+  toPrice: number;
+  value: string;
+  weight: { amount: number; symbol: string; weightId: number };
+  weightForCalculation: null;
+};
+
+export type ProductDetail = {
+  id: number;
+  sku: string;
+  name: string;
+  productStatus: null;
+  description: null;
+  priceId: number;
+  originalPrice: number;
+  hasFromToPrice: boolean;
+  fromPrice: number;
+  toPrice: number;
+  promoteId: number;
+  promotePrice: number;
+  promotePercent: number;
+  qty: number;
+  productCategoryId: number;
+  sharedUrl: string;
+  productPoint: number;
+  myOwnPoint: number;
+  rewardExperiedDate: string;
+  tagsList: [];
+  productImage: {
+    id: number;
+    publicId: null;
+    url: string;
+    thumbnailPublicId: null;
+    thumbnailUrl: string;
+    miniUrl: string;
+    isMain: true;
+    productId: number;
+    seqNo: number;
+    product: null;
+    createdDate: string;
+    createdBy: number;
+    updatedDate: null;
+    updatedBy: null;
+  }[];
+  productClips: [];
+  productPromotion: null;
+  productCategory: {
+    productCategoryId: number;
+    subCategoryId: number;
+    productCategoryName: string;
+    url: string;
+    isMainCategory: boolean;
+  }[];
+  variant: [
+    {
+      variantId: number;
+      name: string;
+      serNo: number;
+      variantValues: ProductVariantValue[];
+    }
+  ];
+  skuValue: ProductSku[];
+  variantValues: [];
+  soldQty: number;
+  leftQty: number;
+  shippingInfo: null;
+  returnPolicy: null;
+  warranty: null;
+  installation: null;
+  brand: {
+    id: number;
+    name: string;
+    logoUrl: string;
+    url: number;
+    logoUrl_Web: string;
+    url_Web: string;
+    description: string;
+    facebookUrl: string;
+    messengerUrl: string;
+    serNo: number;
+  };
+  highLightMain: null;
+  sizeChart: [];
+  categorySteps: string[];
+  memberPointEarn: number;
+  isPreOrder: boolean;
+  estFrom: null;
+  estTo: null;
+  isFav: boolean;
+  colorCatalogId: number;
+  variantIdForImage: number;
+  isImageView: boolean;
+  isAvailable: boolean;
+  isGetOne: boolean;
+  promotionGetOne: null;
+  maxSerNo: number;
+  promotionStartDate: null;
+  promotionEndDate: null;
+  promoteFromPrice: null;
+  promoteToPrice: null;
+  shopId: number;
+  shop: {
+    shopId: number;
+    shopImageUrl: string;
+    shopName: string;
+  };
+  isBestSelling: boolean;
+};
